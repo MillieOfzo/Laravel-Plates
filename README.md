@@ -29,12 +29,11 @@ A Laravel driver for the powerful native PHP templating system [Plates](http://p
 
 4. Register the service provider
 
-In your Laravel application, edit the `app/config/app.php` file and add this
-line to the `providers` array:
+    In your Laravel application, edit the `app/config/app.php` file and add the below line to the `providers` array:
 
-  ```shell
+    ```shell
     'MillieOfzo\Plates\PlatesServiceProvider',
-  ```
+    ```
 
 5. Publish the config
 
