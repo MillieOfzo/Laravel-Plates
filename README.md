@@ -31,8 +31,8 @@ A Laravel driver for the powerful native PHP templating system [Plates](http://p
 
     In your Laravel application, edit the `app/config/app.php` file and add the below line to the `providers` array:
 
-    ```shell
-    'MillieOfzo\Plates\PlatesServiceProvider',
+    ```php
+    MillieOfzo\Plates\PlatesServiceProvider::class,
     ```
 
 5. Publish the config
